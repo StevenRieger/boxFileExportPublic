@@ -1,4 +1,6 @@
 # boxFileExportPublic
+box api java
+
 Box File Export Public
 
 Project I used to export files from Box to my network. It wil loop through the source folder specified in the application.properties It creates one thread per root folder up to the max number of threads specified in the same config file. Note: Box throttled me between 5 and 6 threads.
